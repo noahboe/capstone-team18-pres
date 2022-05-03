@@ -1,6 +1,5 @@
 ---
 marp: true
-theme: gaia
 title: Team 18 Full Presentation
 ---
 
@@ -12,4 +11,4 @@ title: Team 18 Full Presentation
 
 ---
 
-# This is where the content will go...
+# This is where the content goes...
