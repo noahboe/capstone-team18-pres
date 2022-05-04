@@ -44,7 +44,7 @@ Chris Chimm, Noah Boeckman, Bach Ngo, Kyle Weidner
 
 ---
 
-# Unit Tests
+# Unit Testing goals
 - Ensure that all parts of the API are avaliable 
 - Verify that authentication is correct
 - Ensure current functional parts behave correctly
