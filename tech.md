@@ -92,3 +92,11 @@ title: Team 18 Tech Presentation
 ## - OS independent environment for easier onboarding
 
 ![bg right width:600](https://www.vectorlogo.zone/logos/gitpodio/gitpodio-ar21.png)
+
+---
+
+# Dual boot Linux:
+
+## - Dual booting Linux on Windows machine to set up Cybercommons and workers.
+
+![bg right width:600](https://www.groovypost.com/wp-content/uploads/2017/10/Step-10-EasyBCD-623x480.png)
