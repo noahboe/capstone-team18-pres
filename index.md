@@ -118,6 +118,13 @@ self.assertEqual(response.data['result']['status'], 'SUCCESS')
 
 ---
 
+# Test examples
+
+![bg vertical width:98%](./imgs/test_ok.png)
+![bg right width:75%](./imgs/test_no_dspace.png)
+
+---
+
 # Onboarding issues
 
 - Cybercommons only tested on Linux
@@ -142,7 +149,7 @@ self.assertEqual(response.data['result']['status'], 'SUCCESS')
 
 - Online research
 
-    - For learning REST API and components of cybercommons infrastructure
+    - For learning REST API and components of cyberCommons infrastructure
 
 - Lots of trial and error
 
