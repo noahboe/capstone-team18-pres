@@ -3,15 +3,8 @@ marp: true
 title: Team 18 Full Presentation
 ---
 
-<h1></h1>
-<h1 align="center"> Library Database Project </h1>
-<h2 align="center"> Capstone Team 18 </h2>
-<h3 align="center"> Team Members: </h3>
-<p align="center"> Noah Boeckman, Christopher Chhim, Bach Ngo, Kyle Weidner </p>
-
----
-
 # Unit Testing the cyberCommons Framework
+## Capstone Team 18
 Chris Chimm, Noah Boeckman, Bach Ngo, Kyle Weidner
 
 ---
@@ -124,3 +117,74 @@ self.assertEqual(response.data['result']['status'], 'SUCCESS')
 ```
 
 ---
+
+# Test examples
+
+![bg vertical width:98%](./imgs/test_ok.png)
+![bg right width:75%](./imgs/test_no_dspace.png)
+
+---
+
+# Onboarding issues
+
+- Cybercommons only tested on Linux
+
+    - All members have Windows machines
+
+- Tried multiple platforms, encounterd issues on all
+
+    - GCP VMs, Virtual Box VM, Dual Boot
+
+- Lack of experience with REST API's
+
+- Underestimate time to learn new codebase
+
+---
+
+# Overcoming issues
+
+- Discussion with project owner
+
+    - Communicated via Discord to try to resolve issues
+
+- Online research
+
+    - For learning REST API and components of cyberCommons infrastructure
+
+- Lots of trial and error
+
+- Move to Gitpod environment 
+
+    - OS independent
+
+---
+
+# What could we have done better?
+
+- Be more proactive and persistent asking questions about onboarding issues
+
+- Scheduled regular meetings with project owner
+
+- Improved communication with other groups working on this project
+
+- Scheduled more time outside of class to work on project
+
+---
+
+# Project Takeaways
+
+- Communication is key
+
+- Onboarding is difficult
+
+- Most things take much longer than you expect
+
+- Try to reduce OS dependencies
+
+- Learned about REST APIs
+
+---
+
+# Technology Used
+
+## [Our tech page](http://35.232.63.249/tech.html)
