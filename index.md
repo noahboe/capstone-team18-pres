@@ -86,23 +86,24 @@ self.assertEqual(request.status_code, 200)
 ---
 
 # Ensuring functionality 
-- Testing the email function of a worker by sending a post request as a logged in user
+- Testing the embargoed items function of a worker by sending a post request as a logged in user
 ```python
-self.client.force_authenticate(user=self.user)
-request = self.client.post('/queue/run/emailq.tasks.tasks.sendmail/', 
-        {'args':['fakeemail@nowhere.com', 'subject', 'body']}, format = "json")
+self.client.force_authenticate( user=self.user)
+request = self.client.post( '/queue/run/dspaceq.tasks.reports.report_embargoed_items/', 
+        {'queue': 'shareok-dspace6x-test-workerq', 'args':['2022-1-1', '2022-02-01']}, format = "json")
 ```
 - Checking that the worker returns a result url that is accessable
 ```python
 url = str(request.data.get('result_url')[21:])
 response = self.client.get(url)
 self.assertEqual(response.status_code, 200)
+self.assertEqual(response.data['result']['result']['ERROR'], "beg_date does not use YYYY-MM-DD format")
 ```
 
 ---
 
 # Ensuring functionality
-- Testing that a logged in admin can view missing meta data from a worker
+- Testing that a logged in admin can view missing meta data from the task
 ```python
 self.client.force_authenticate( user=self.user)
 request = self.client.post( '/queue/run/dspaceq.tasks.tasks.list_missing_metadata_etd/', 
