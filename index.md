@@ -5,7 +5,7 @@ title: Team 18 Full Presentation
 
 # Unit Testing the cyberCommons Framework
 ## Capstone Team 18
-Chris Chimm, Noah Boeckman, Bach Ngo, Kyle Weidner
+Chris Chhim, Noah Boeckman, Bach Ngo, Kyle Weidner
 
 ---
 
@@ -24,7 +24,7 @@ Chris Chimm, Noah Boeckman, Bach Ngo, Kyle Weidner
 ---
 
 # The cyberCommons Framework
-- Where its used:
+- Where it is used:
   - University of Colorado Libraries ​
   - University of Oklahoma Libraries ​
   - US Congressional Hearings Search Engine ​
